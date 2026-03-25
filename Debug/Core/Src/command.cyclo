@@ -1,0 +1,9 @@
+../Core/Src/command.c:46:6:accumulate_line	10
+../Core/Src/command.c:95:6:unknown_command	2
+../Core/Src/command.c:110:6:handle_author	2
+../Core/Src/command.c:123:6:handle_test	16
+../Core/Src/command.c:183:6:handle_hexedit	30
+../Core/Src/command.c:299:5:get_int_input	3
+../Core/Src/command.c:319:6:handle_character	121
+../Core/Src/command.c:1318:6:handle_exit	2
+../Core/Src/command.c:1348:6:process_command	13

@@ -1,0 +1,7 @@
+../Core/Src/LCD_write.c:29:6:CS_LOW	4	static
+../Core/Src/LCD_write.c:54:6:CS_HIGH	4	static
+../Core/Src/LCD_write.c:79:6:DC_CMD	4	static
+../Core/Src/LCD_write.c:104:6:DC_DATA	4	static
+../Core/Src/LCD_write.c:122:6:spi1_write	24	static
+../Core/Src/LCD_write.c:155:6:writecommand	16	static
+../Core/Src/LCD_write.c:183:6:writedata	16	static

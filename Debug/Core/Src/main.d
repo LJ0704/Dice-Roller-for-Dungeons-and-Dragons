@@ -1,0 +1,93 @@
+Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/command.h \
+ ../Core/Inc/game_definitions.h ../Core/Inc/game_logic.h \
+ ../Core/Inc/game_definitions.h ../Core/Inc/LCD_Game_Display.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h \
+ ../Drivers/CMSIS/Include/core_cm4.h \
+ ../Drivers/CMSIS/Include/cmsis_version.h \
+ ../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Include/mpu_armv7.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ ../Core/Inc/LCD_Fill_shapes.h ../Core/Inc/LCD_write.h \
+ ../Core/Inc/LCD_ST7789_Init.h ../Core/Inc/LCD_Pixel_Draw.h \
+ ../Core/Inc/LCD_Text_Display.h ../Core/Inc/sys_timer_delay.h \
+ ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ ../Core/Inc/stm32f4xx_hal_conf.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ ../Core/Inc/main.h ../Core/Inc/uart.h ../Core/Inc/EEPROM.h \
+ ../Core/Inc/i2c.h ../Core/Inc/button_interrupts.h ../Core/Inc/SPI_Init.h \
+ ../Core/Inc/LCD_ST7789_Init.h ../Core/Inc/sys_timer_delay.h \
+ ../Core/Inc/LCD_write.h ../Core/Inc/LCD_Text_Display.h \
+ ../Core/Inc/Onboard_LED_Init.h ../Core/Inc/LCD_Pixel_Draw.h \
+ ../Core/Inc/LCD_Fill_shapes.h ../Core/Inc/LCD_Test_Func.h \
+ ../Core/Inc/LCD_Game_Display.h ../Core/Inc/LCD_Image_Display.h
+../Core/Inc/command.h:
+../Core/Inc/game_definitions.h:
+../Core/Inc/game_logic.h:
+../Core/Inc/game_definitions.h:
+../Core/Inc/LCD_Game_Display.h:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:
+../Drivers/CMSIS/Include/core_cm4.h:
+../Drivers/CMSIS/Include/cmsis_version.h:
+../Drivers/CMSIS/Include/cmsis_compiler.h:
+../Drivers/CMSIS/Include/cmsis_gcc.h:
+../Drivers/CMSIS/Include/mpu_armv7.h:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
+../Core/Inc/LCD_Fill_shapes.h:
+../Core/Inc/LCD_write.h:
+../Core/Inc/LCD_ST7789_Init.h:
+../Core/Inc/LCD_Pixel_Draw.h:
+../Core/Inc/LCD_Text_Display.h:
+../Core/Inc/sys_timer_delay.h:
+../Core/Inc/main.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
+../Core/Inc/stm32f4xx_hal_conf.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
+../Core/Inc/main.h:
+../Core/Inc/uart.h:
+../Core/Inc/EEPROM.h:
+../Core/Inc/i2c.h:
+../Core/Inc/button_interrupts.h:
+../Core/Inc/SPI_Init.h:
+../Core/Inc/LCD_ST7789_Init.h:
+../Core/Inc/sys_timer_delay.h:
+../Core/Inc/LCD_write.h:
+../Core/Inc/LCD_Text_Display.h:
+../Core/Inc/Onboard_LED_Init.h:
+../Core/Inc/LCD_Pixel_Draw.h:
+../Core/Inc/LCD_Fill_shapes.h:
+../Core/Inc/LCD_Test_Func.h:
+../Core/Inc/LCD_Game_Display.h:
+../Core/Inc/LCD_Image_Display.h:

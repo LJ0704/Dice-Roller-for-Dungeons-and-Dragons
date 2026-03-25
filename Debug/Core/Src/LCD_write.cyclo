@@ -1,0 +1,7 @@
+../Core/Src/LCD_write.c:29:6:CS_LOW	1
+../Core/Src/LCD_write.c:54:6:CS_HIGH	1
+../Core/Src/LCD_write.c:79:6:DC_CMD	1
+../Core/Src/LCD_write.c:104:6:DC_DATA	1
+../Core/Src/LCD_write.c:122:6:spi1_write	4
+../Core/Src/LCD_write.c:155:6:writecommand	1
+../Core/Src/LCD_write.c:183:6:writedata	1

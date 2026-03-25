@@ -1,0 +1,2 @@
+../Core/Src/LCD_Text_Display.c:32:6:ST7789_DrawChar	8
+../Core/Src/LCD_Text_Display.c:81:6:ST7789_DrawString	2

@@ -1,0 +1,2 @@
+../Core/Src/EEPROM.c.c:30:6:EEPROM_ReadByte	8
+../Core/Src/EEPROM.c.c:87:6:EEPROM_WriteByte	7

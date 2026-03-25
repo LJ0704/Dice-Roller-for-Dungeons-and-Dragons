@@ -1,0 +1,6 @@
+../Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Core/Src/button_interrupts.c:22:6:exti0_initialization	8	static
+../Core/Src/button_interrupts.c:54:6:exti1_initialization	8	static
+../Core/Src/button_interrupts.c:84:6:exti2_initialization	8	static
+../Core/Src/button_interrupts.c:114:6:gpio_button_initialization	4	static
+../Core/Src/button_interrupts.c:140:6:button_interrupt_initialization	8	static

@@ -1,0 +1,5 @@
+../Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Core/Src/uart.c:38:5:__io_putchar	16	static
+../Core/Src/uart.c:66:5:__io_getchar	16	static
+../Core/Src/uart.c:94:6:USART2_IRQHandler	24	static
+../Core/Src/uart.c:162:6:UART_Init	8	static

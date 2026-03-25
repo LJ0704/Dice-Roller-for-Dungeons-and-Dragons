@@ -1,0 +1,4 @@
+../Core/Src/LCD_Fill_shapes.c:27:6:ST7789_Fill	24	static
+../Core/Src/LCD_Fill_shapes.c:79:6:ST7789_SetAddressWindow	24	static
+../Core/Src/LCD_Fill_shapes.c:107:6:ST7789_FillRect	32	static
+../Core/Src/LCD_Fill_shapes.c:146:6:ST7789_DrawRect	32	static

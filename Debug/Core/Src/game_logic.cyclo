@@ -1,0 +1,6 @@
+../Core/Src/game_logic.c:27:6:load_characters	4
+../Core/Src/game_logic.c:44:6:toggle_solenoid	1
+../Core/Src/game_logic.c:56:5:set_turn_order	38
+../Core/Src/game_logic.c:162:5:combat_turn	49
+../Core/Src/game_logic.c:419:5:ability_check	23
+../Core/Src/game_logic.c:521:5:roll_anything	2

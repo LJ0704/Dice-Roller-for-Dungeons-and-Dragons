@@ -1,0 +1,2 @@
+../Core/Src/LCD_Image_Display.c:83:6:ST7789_SetFullScreen	1
+../Core/Src/LCD_Image_Display.c:115:6:ST7789_DrawFullScreen	2
