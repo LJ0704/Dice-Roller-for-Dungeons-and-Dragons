@@ -3,6 +3,7 @@
 Contributions by me:
 
 Folder Structure: 
+
 Src: button_interrupts.c
      EEPROM.c
      i2c.c
@@ -15,7 +16,20 @@ Src: button_interrupts.c
      LCD_write.c
      main.c
      SPI_Init.c
+
+Schematic:
+     Schematics using KiCAD
+
+Oscope_Logic_analyzer:
+     Oscilloscope and LtSpice Simulation result comparision
+     EEPROM logic analyzer Hex Dump for Character information
+     Failure of on-board Flash Memory and why did we switch to EEPPROM
+
+ltspice_simulation:
+     Simluation file of Switching Circuit for Solenoid
+
 README file
+
 
 Code Credits: 
 Dean's Book
